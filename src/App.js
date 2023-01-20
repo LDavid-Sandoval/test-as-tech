@@ -137,7 +137,7 @@ function App() {
             {
               infoModal.probabilityofprecip > 60 || infoModal.relativehumidity > 50 
                 ? <img className="color-img-svg" src={RainIcon} alt="icon/weather" />
-                : <img className="color-img-svg" src={RainIcon} alt="icon/rain" />
+                : <img className="color-img-svg" src={SunnyIcon}  alt="icon/rain" />
             }
             <p className="paragraph-title-estate">{infoModal.tempc} °C</p>
           </div>
